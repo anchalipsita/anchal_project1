@@ -1,0 +1,190 @@
+[main] 2021-08-17 11:26:41 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 11:26:41 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 11:26:41 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 11:26:41 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 11:26:41 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 11:26:41 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 11:26:41 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 11:26:41 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 11:26:54 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 11:26:54 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 11:28:05 WARN  com.app.Main  - Invalid email or password
+[main] 2021-08-17 11:28:05 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 11:28:05 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 11:28:05 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 11:28:05 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 11:28:05 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 11:28:05 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 11:28:25 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 11:28:25 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 11:29:10 WARN  com.app.Main  - Invalid email or password
+[main] 2021-08-17 11:29:10 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 11:29:10 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 11:29:10 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 11:29:10 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 11:29:10 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 11:29:10 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 11:51:59 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 11:51:59 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 11:51:59 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 11:51:59 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 11:51:59 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 11:51:59 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 11:51:59 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 11:51:59 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 11:52:05 INFO  com.app.Main  - Welcome here! Please sign up using your first name, last name, email and password
+[main] 2021-08-17 11:52:45 ERROR com.app.dao.impl.UserDAOImpl  - java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+[main] 2021-08-17 11:52:45 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-17 11:52:45 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 11:52:45 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 11:52:45 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 11:52:45 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 11:52:45 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 11:52:45 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 11:59:41 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 11:59:41 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 11:59:41 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 11:59:41 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 11:59:41 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 11:59:41 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 11:59:41 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 11:59:41 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 11:59:50 INFO  com.app.Main  - Welcome here! Please sign up using your first name, last name, email and password
+[main] 2021-08-17 12:00:21 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 12:00:21 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 12:00:21 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 12:00:21 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 12:00:21 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 12:00:21 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 13:24:15 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 13:24:15 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 13:24:15 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 13:24:15 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 13:24:15 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 13:24:15 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 13:24:15 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 13:24:15 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 13:24:23 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 13:24:23 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 13:24:49 ERROR com.app.dao.impl.UserDAOImpl  - java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+[main] 2021-08-17 13:24:49 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-17 13:24:49 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-17 13:24:49 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-17 13:24:49 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-17 13:24:49 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-17 13:32:21 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 13:32:21 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 13:32:21 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 13:32:21 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 13:32:21 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 13:32:21 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 13:32:21 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 13:32:21 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 13:32:27 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 13:32:27 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 13:32:50 ERROR com.app.dao.impl.UserDAOImpl  - java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+[main] 2021-08-17 13:32:50 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-17 13:32:50 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-17 13:32:50 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-17 13:32:50 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-17 13:32:50 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-17 15:45:35 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 15:45:35 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 15:45:35 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 15:45:35 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 15:45:35 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 15:45:35 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 15:45:35 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 15:45:35 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 15:45:40 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 15:45:40 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 15:46:00 ERROR com.app.dao.impl.UserDAOImpl  - java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+[main] 2021-08-17 15:46:00 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-17 15:46:00 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-17 15:46:00 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-17 15:46:00 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-17 15:46:00 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-17 21:40:27 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 21:40:27 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 21:40:27 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 21:40:27 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 21:40:27 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 21:40:27 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 21:40:27 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 21:40:27 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 21:40:33 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 21:40:33 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 21:40:52 ERROR com.app.dao.impl.UserDAOImpl  - java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+[main] 2021-08-17 21:40:52 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-17 21:40:52 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-17 21:40:52 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-17 21:40:52 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-17 21:40:52 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-17 21:58:30 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 21:58:30 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 21:58:30 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 21:58:30 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 21:58:30 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 21:58:30 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 21:58:30 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 21:58:30 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 21:58:41 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 21:58:41 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 21:59:00 INFO  com.app.Main  - Login successful
+[main] 2021-08-17 21:59:00 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-17 21:59:00 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-17 21:59:00 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-17 21:59:00 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-17 21:59:12 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-17 21:59:12 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-17 21:59:12 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-17 21:59:12 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-17 21:59:12 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-17 21:59:12 INFO  com.app.Main  - 5)View Cart
+[main] 2021-08-17 21:59:12 INFO  com.app.Main  - 6)Go to previous menu
+[main] 2021-08-17 21:59:12 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-17 21:59:30 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 21:59:30 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 21:59:30 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 21:59:30 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 21:59:30 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 21:59:30 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 21:59:46 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 21:59:46 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 22:00:04 WARN  com.app.Main  - Invalid email or password
+[main] 2021-08-17 22:00:04 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-17 22:00:04 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-17 22:00:04 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-17 22:00:04 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-17 22:10:18 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 22:10:18 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 22:10:18 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 22:10:18 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 22:10:18 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 22:10:18 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 22:10:18 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 22:10:18 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 22:10:24 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 22:10:24 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 22:10:49 WARN  com.app.Main  - Entered email and password isn't registered
+[main] 2021-08-17 22:10:49 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 22:10:49 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 22:10:49 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 22:10:49 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 22:10:49 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 22:10:49 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 22:12:07 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-17 22:12:07 INFO  com.app.Main  - ==========================================
+[main] 2021-08-17 22:12:07 INFO  com.app.Main  - Main Menu
+[main] 2021-08-17 22:12:07 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-17 22:12:07 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-17 22:12:07 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-17 22:12:07 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-17 22:12:07 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-17 22:12:13 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-17 22:12:13 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-17 22:12:30 INFO  com.app.Main  - Login successful
+[main] 2021-08-17 22:12:30 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-17 22:12:30 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-17 22:12:30 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-17 22:12:30 INFO  com.app.Main  - Please enter your choice
