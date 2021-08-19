@@ -55,4 +55,20 @@ public class ProductSearchServiceImpl implements ProductSearchService {
 		return productList;
 	}
 
+	@Override
+	public List<Product> getAllProducts() throws BusinessException {
+		List<Product> productList = null;
+		productList = productSearchDAO.getAllProducts();
+		return productList;
+	}
+
+	@Override
+	public int addProduct(String productName, String category, double price, double rating) throws BusinessException {
+		int c=0;
+		c = productSearchDAO.addProduct(productName,category,price,rating);
+		return c;
+	}
+
+	
+
 }

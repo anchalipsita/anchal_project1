@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,7 +22,7 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
 	public Product getProductByProductName(String productName) throws BusinessException {
 		Product product = null;
 		try(Connection connection=MySqlDbConnection.getConnection()){
-			String sql="select id,productName,category,price,rating from product where productName='?'";
+			String sql="select id,productName,category,price,rating from product where productName=?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setString(1, productName);
 			ResultSet resultSet=preparedStatement.executeQuery();
@@ -46,7 +47,7 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
 	public List<Product> getProductByCategory(String category) throws BusinessException {
 		List<Product> productList = new ArrayList<>();
 		try(Connection connection=MySqlDbConnection.getConnection()){
-			String sql="select id,productName,category,price,rating from product where category='?'";
+			String sql="select id,productName,category,price,rating from product where category=?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setString(1, category);
 			ResultSet resultSet=preparedStatement.executeQuery();
@@ -57,10 +58,12 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
 				product.setCategory(resultSet.getString("category"));
 				product.setPrice(resultSet.getDouble("price"));
 				product.setRating(resultSet.getDouble("rating"));
+				productList.add(product);
+				log.info("\n");
 			}  
 			if(productList.size()==0)
 			{
-				throw new BusinessException("The category "+category+"is not available");
+				throw new BusinessException("The category "+category+" is not available");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			log.error(e);
@@ -84,6 +87,7 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
 				product.setCategory(resultSet.getString("category"));
 				product.setPrice(resultSet.getDouble("price"));
 				product.setRating(resultSet.getDouble("rating"));
+				productList.add(product);
 			}  
 			if(productList.size()==0)
 			{
@@ -100,7 +104,7 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
 	public List<Product> getProductByRating(double rating) throws BusinessException {
 		List<Product> productList = new ArrayList<>();
 		try(Connection connection=MySqlDbConnection.getConnection()){
-			String sql="select id,productName,category,price,rating from product where category>=?";
+			String sql="select id,productName,category,price,rating from product where rating>=?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setDouble(1, rating);
 			ResultSet resultSet=preparedStatement.executeQuery();
@@ -111,6 +115,7 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
 				product.setCategory(resultSet.getString("category"));
 				product.setPrice(resultSet.getDouble("price"));
 				product.setRating(resultSet.getDouble("rating"));
+				productList.add(product);
 			}  
 			if(productList.size()==0)
 			{
@@ -121,6 +126,57 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
 			throw new BusinessException("Internal error occured contact sysadmin");
 		}
 		return productList;
+	}
+
+	@Override
+	public List<Product> getAllProducts() throws BusinessException {
+		List<Product> productList = new ArrayList<>();
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="select id,productName,category,price,rating from product";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Product product = new Product();
+				product.setId(resultSet.getInt("id"));
+				product.setProductName(resultSet.getString("productName"));
+				product.setCategory(resultSet.getString("category"));
+				product.setPrice(resultSet.getDouble("price"));
+				product.setRating(resultSet.getDouble("rating"));
+				productList.add(product);
+			}  
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact sysadmin");
+		}
+		return productList;
+	}
+
+	@Override
+	public int addProduct(String productName,String category,double price,double rating) throws BusinessException {
+		int c=0;
+		Product product = null;
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="insert into product(productName,category,price,rating) values(?,?,?,?)";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+			preparedStatement.setString(1,product.getProductName());
+			preparedStatement.setString(2,product.getCategory());
+			preparedStatement.setDouble(3,product.getPrice());
+			preparedStatement.setDouble(3,product.getRating());
+			
+			c = preparedStatement.executeUpdate();
+			if(c==1) {
+				ResultSet resultSet = preparedStatement.getGeneratedKeys();
+				if(resultSet.next()) {
+					product = new Product();
+					product.setId(resultSet.getInt(1));
+				}
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact sysadmin");
+		}
+		return c;
 	}
 
 }

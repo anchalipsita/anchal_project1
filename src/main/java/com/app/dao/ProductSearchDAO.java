@@ -11,5 +11,7 @@ public interface ProductSearchDAO {
 	public List<Product> getProductByCategory(String category) throws BusinessException;
 	public List<Product> getProductByPrice(double price) throws BusinessException;
 	public List<Product> getProductByRating(double rating) throws BusinessException;
+	public List<Product> getAllProducts() throws BusinessException;
+	public int addProduct(String productName,String category,double price,double rating) throws BusinessException;
 
 }

@@ -188,3 +188,538 @@
 [main] 2021-08-17 22:12:30 INFO  com.app.Main  - 1)Search Products
 [main] 2021-08-17 22:12:30 INFO  com.app.Main  - 2)Logout
 [main] 2021-08-17 22:12:30 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 11:42:20 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 11:42:20 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 11:42:20 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 11:42:20 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 11:42:20 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 11:42:20 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 11:42:20 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 11:42:20 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 11:42:25 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 11:42:25 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 11:42:25 INFO  com.app.Main  - Enter your email id:
+
+[main] 2021-08-18 11:42:37 INFO  com.app.Main  - Enter your password:
+
+[main] 2021-08-18 11:42:49 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 11:42:49 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 11:42:49 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 11:42:49 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 11:42:49 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 11:42:55 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 11:42:55 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 11:42:55 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 11:42:55 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 11:42:55 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 11:42:55 INFO  com.app.Main  - 5)View Cart
+[main] 2021-08-18 11:42:55 INFO  com.app.Main  - 6)Go to previous menu
+[main] 2021-08-18 11:42:55 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 11:43:02 INFO  com.app.Main  - Enter the product category you want to search
+[main] 2021-08-18 11:43:07 ERROR com.app.dao.impl.ProductSearchDAOImpl  - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+[main] 2021-08-18 11:43:07 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-18 11:43:07 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 11:43:07 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 11:43:07 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 11:43:07 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 11:43:07 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 11:43:07 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 11:45:05 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 11:45:05 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 11:45:05 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 11:45:05 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 11:45:05 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 11:45:05 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 11:45:05 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 11:45:05 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 11:45:29 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 11:45:29 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 11:45:29 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 11:45:29 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 11:45:29 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 11:45:29 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 11:45:29 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 11:45:29 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 11:45:34 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 11:45:34 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 11:45:34 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 11:45:46 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 11:45:54 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 11:45:54 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 11:45:54 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 11:45:54 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 11:45:54 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 11:45:59 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 11:45:59 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 11:45:59 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 11:45:59 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 11:45:59 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 11:45:59 INFO  com.app.Main  - 5)View Cart
+[main] 2021-08-18 11:45:59 INFO  com.app.Main  - 6)Go to previous menu
+[main] 2021-08-18 11:45:59 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 11:46:07 INFO  com.app.Main  - Enter the product category you want to search
+[main] 2021-08-18 11:46:14 ERROR com.app.dao.impl.ProductSearchDAOImpl  - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+[main] 2021-08-18 11:46:14 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-18 11:46:14 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 11:46:14 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 11:46:14 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 11:46:14 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 11:46:14 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 11:46:14 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 11:47:21 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 11:47:21 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 11:47:21 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 11:47:21 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 11:47:21 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 11:47:21 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 11:47:21 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 11:47:21 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 11:47:24 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 11:47:24 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 11:47:24 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 11:58:50 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 11:58:50 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 11:58:50 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 11:58:50 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 11:58:50 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 11:58:50 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 11:58:50 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 11:58:50 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 11:58:56 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 11:58:56 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 11:58:56 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 11:59:04 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 11:59:13 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 11:59:13 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 11:59:13 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 11:59:13 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 11:59:13 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 11:59:16 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 11:59:16 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 11:59:16 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 11:59:16 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 11:59:16 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 11:59:16 INFO  com.app.Main  - 5)View Cart
+[main] 2021-08-18 11:59:16 INFO  com.app.Main  - 6)Go to previous menu
+[main] 2021-08-18 11:59:16 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 11:59:19 INFO  com.app.Main  - Enter the product name you want to search
+[main] 2021-08-18 11:59:36 ERROR com.app.dao.impl.ProductSearchDAOImpl  - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+[main] 2021-08-18 11:59:36 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-18 11:59:36 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 11:59:36 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 11:59:36 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 11:59:36 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 11:59:36 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 11:59:36 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:01:12 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 12:01:12 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 12:01:12 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:01:12 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:01:12 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:01:12 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:01:12 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:01:12 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:01:20 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 12:01:20 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 12:01:21 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 12:01:28 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 12:01:37 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 12:01:37 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 12:01:37 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 12:01:37 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 12:01:37 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 12:01:40 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 12:01:40 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 12:01:40 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 12:01:40 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 12:01:40 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 12:01:40 INFO  com.app.Main  - 5)View Cart
+[main] 2021-08-18 12:01:40 INFO  com.app.Main  - 6)Go to previous menu
+[main] 2021-08-18 12:01:40 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 12:01:45 INFO  com.app.Main  - Enter the product category you want to search
+[main] 2021-08-18 12:01:48 ERROR com.app.dao.impl.ProductSearchDAOImpl  - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+[main] 2021-08-18 12:01:48 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-18 12:01:48 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:01:48 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:01:48 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:01:48 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:01:48 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:01:48 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:05:31 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 12:05:31 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 12:05:31 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:05:31 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:05:31 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:05:31 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:05:31 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:05:31 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:05:42 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 12:05:42 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 12:05:42 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 12:05:53 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 12:06:01 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 12:06:01 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 12:06:01 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 12:06:01 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 12:06:01 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 12:06:04 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 12:06:04 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 12:06:04 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 12:06:04 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 12:06:04 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 12:06:04 INFO  com.app.Main  - 5)View Cart
+[main] 2021-08-18 12:06:04 INFO  com.app.Main  - 6)Go to previous menu
+[main] 2021-08-18 12:06:04 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 12:06:08 INFO  com.app.Main  - Enter the product category you want to search
+[main] 2021-08-18 12:06:12 WARN  com.app.Main  - The category Mobileis not available
+[main] 2021-08-18 12:06:12 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:06:12 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:06:12 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:06:12 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:06:12 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:06:12 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:08:23 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 12:08:23 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 12:08:23 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:08:23 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:08:23 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:08:23 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:08:23 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:08:23 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:08:28 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 12:08:28 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 12:08:28 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 12:08:35 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 12:08:41 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 12:08:41 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 12:08:41 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 12:08:41 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 12:08:41 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 12:08:43 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 12:08:43 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 12:08:43 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 12:08:43 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 12:08:43 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 12:08:43 INFO  com.app.Main  - 5)View Cart
+[main] 2021-08-18 12:08:43 INFO  com.app.Main  - 6)Go to previous menu
+[main] 2021-08-18 12:08:43 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 12:08:46 INFO  com.app.Main  - Enter the product category you want to search
+[main] 2021-08-18 12:08:49 DEBUG com.app.dao.impl.ProductSearchDAOImpl  - TV
+[main] 2021-08-18 12:08:49 WARN  com.app.Main  - The category TV is not available
+[main] 2021-08-18 12:08:49 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:08:49 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:08:49 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:08:49 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:08:49 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:08:49 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:12:26 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 12:12:26 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 12:12:26 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:12:26 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:12:26 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:12:26 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:12:26 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:12:26 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:12:33 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 12:12:33 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 12:12:33 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 12:12:42 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 12:12:48 WARN  com.app.Main  - Invalid email or password
+[main] 2021-08-18 12:12:48 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:12:48 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:12:48 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:12:48 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:12:48 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:12:48 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:13:10 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 12:13:10 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 12:13:10 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 12:13:25 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 12:13:33 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 12:13:33 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 12:13:33 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 12:13:33 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 12:13:33 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 12:13:39 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 12:13:39 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 12:13:39 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 12:13:39 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 12:13:39 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 12:13:39 INFO  com.app.Main  - 5)View Cart
+[main] 2021-08-18 12:13:39 INFO  com.app.Main  - 6)Go to previous menu
+[main] 2021-08-18 12:13:39 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 12:13:42 INFO  com.app.Main  - Enter the product category you want to search
+[main] 2021-08-18 12:13:49 DEBUG com.app.dao.impl.ProductSearchDAOImpl  - TV
+[main] 2021-08-18 12:13:49 INFO  com.app.Main  - Total there are 3 products available ... Below are the details
+[main] 2021-08-18 12:13:49 INFO  com.app.Main  - [Product [id=3, productName=LG HD LED Smart TV, category=TV, price=18000.0, rating=4.4], Product [id=5, productName=Mi 4X Smart Android TV, category=TV, price=39000.0, rating=4.4], Product [id=8, productName=realme Smart Android TV, category=TV, price=25999.0, rating=4.3]]
+[main] 2021-08-18 12:13:49 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:13:49 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:13:49 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:13:49 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:13:49 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:13:49 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 12:35:40 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 12:35:40 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 12:35:40 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 12:35:40 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 12:35:40 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 12:35:40 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 12:35:40 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 12:35:40 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 13:04:52 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 13:04:52 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 13:04:52 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 13:04:52 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 13:04:52 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 13:04:52 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 13:04:52 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 13:04:52 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 13:05:00 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 13:05:00 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 13:05:00 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 13:05:17 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 13:05:27 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 13:05:27 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 13:05:27 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 13:05:27 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 13:05:27 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 13:05:31 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 13:05:31 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 13:05:31 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 13:05:31 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 13:05:31 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 13:05:31 INFO  com.app.Main  - 5)View All Products
+[main] 2021-08-18 13:05:31 INFO  com.app.Main  - 6)View Cart
+[main] 2021-08-18 13:05:31 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 13:05:44 INFO  com.app.Main  - Enter the product name you want to search
+[main] 2021-08-18 13:06:06 INFO  com.app.Main  - Product with product name realme Smart Android TV found successfully... Below is the details
+[main] 2021-08-18 13:06:06 INFO  com.app.Main  - Product [id=8, productName=realme Smart Android TV, category=TV, price=25999.0, rating=4.3]
+[main] 2021-08-18 13:06:06 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 13:06:06 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 13:06:06 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 13:06:06 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 13:06:06 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 13:06:06 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 13:50:10 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 13:50:10 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 13:50:10 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 13:50:10 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 13:50:10 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 13:50:10 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 13:50:10 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 13:50:10 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 13:50:20 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 13:50:20 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 13:50:20 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 13:50:30 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 13:50:38 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 13:50:38 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 13:50:38 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 13:50:38 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 13:50:38 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 13:50:46 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 13:50:46 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 13:50:46 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 13:50:46 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 13:50:46 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 13:50:46 INFO  com.app.Main  - 5)View All Products
+[main] 2021-08-18 13:50:46 INFO  com.app.Main  - 6)View Cart
+[main] 2021-08-18 13:50:46 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 13:50:51 INFO  com.app.Main  - Logging out
+[main] 2021-08-18 13:50:51 INFO  com.app.Main  - Thanks for using this APP we will see you soon :)
+[main] 2021-08-18 13:50:51 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 13:50:51 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 13:50:51 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 13:50:51 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 13:50:51 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 13:50:51 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 13:51:17 INFO  com.app.Main  - Thanks for using this APP we will see you soon :)
+[main] 2021-08-18 13:52:19 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 13:52:19 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 13:52:19 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 13:52:19 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 13:52:19 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 13:52:19 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 13:52:19 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 13:52:19 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 13:52:27 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-18 13:52:27 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 13:52:27 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-18 13:52:34 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-18 13:52:41 INFO  com.app.Main  - Login successful
+[main] 2021-08-18 13:52:41 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-18 13:52:41 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-18 13:52:41 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-18 13:52:41 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-18 13:52:45 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-18 13:52:45 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-18 13:52:45 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-18 13:52:45 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-18 13:52:45 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-18 13:52:45 INFO  com.app.Main  - 5)View All Products
+[main] 2021-08-18 13:52:45 INFO  com.app.Main  - 6)View Cart
+[main] 2021-08-18 13:52:45 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-18 13:52:52 INFO  com.app.Main  - Logging out
+[main] 2021-08-18 13:52:52 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 13:52:52 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 13:52:52 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 13:52:52 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 13:52:52 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 13:52:52 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 13:53:04 INFO  com.app.Main  - Thanks for using this APP we will see you soon :)
+[main] 2021-08-18 13:53:41 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 13:53:41 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 13:53:41 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 13:53:41 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 13:53:41 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 13:53:41 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 13:53:41 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 13:53:41 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 13:53:55 INFO  com.app.Main  - Welcome to Employee Login
+[main] 2021-08-18 13:53:55 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-18 13:54:16 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 13:54:16 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 13:54:16 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 13:54:16 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 13:54:16 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 13:54:16 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 15:11:00 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-18 15:11:00 INFO  com.app.Main  - ==========================================
+[main] 2021-08-18 15:11:00 INFO  com.app.Main  - Main Menu
+[main] 2021-08-18 15:11:00 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-18 15:11:00 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-18 15:11:00 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-18 15:11:00 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-18 15:11:00 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-18 15:11:14 INFO  com.app.Main  - Thanks for using this APP we will see you soon :)
+[main] 2021-08-19 10:30:16 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-19 10:30:16 INFO  com.app.Main  - ==========================================
+[main] 2021-08-19 10:30:16 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:30:16 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:30:16 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:30:16 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:30:16 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:30:16 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:30:57 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-19 10:30:57 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-19 10:30:57 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-19 10:31:14 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-19 10:31:30 INFO  com.app.Main  - Login successful
+[main] 2021-08-19 10:31:30 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-19 10:31:30 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-19 10:31:30 INFO  com.app.Main  - 2)Logout
+[main] 2021-08-19 10:31:30 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-19 10:32:32 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-19 10:32:32 INFO  com.app.Main  - ==========================================
+[main] 2021-08-19 10:32:32 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:32:32 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:32:32 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:32:32 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:32:32 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:32:32 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:32:37 INFO  com.app.Main  - Welcome to Employee Login
+[main] 2021-08-19 10:32:37 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-19 10:32:37 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-19 10:32:45 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 10:32:55 INFO  com.app.Main  - 1)Add new product
+[main] 2021-08-19 10:32:55 INFO  com.app.Main  - 2)View user details
+[main] 2021-08-19 10:32:55 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-19 10:33:00 INFO  com.app.Main  - You can view user details here
+[main] 2021-08-19 10:33:00 INFO  com.app.Main  - 1)View user by id
+[main] 2021-08-19 10:33:00 INFO  com.app.Main  - 2)View user by email
+[main] 2021-08-19 10:33:00 INFO  com.app.Main  - 3)View all users
+[main] 2021-08-19 10:33:00 INFO  com.app.Main  - 4)Go to previous menu
+[main] 2021-08-19 10:33:10 INFO  com.app.Main  - Total there are 3 users registered ... Below are the details
+[main] 2021-08-19 10:33:10 INFO  com.app.Main  - [User [id=1, firstName=Riya, lastName=Jha, email=emp@gmail.com, password=null], User [id=2, firstName=Nikita, lastName=Sharma, email=nikki@gmail.com, password=null], User [id=3, firstName=Anchal, lastName=Ghosh, email=anchal@gmail.com, password=null]]
+[main] 2021-08-19 10:33:10 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:33:10 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:33:10 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:33:10 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:33:10 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:33:10 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:44:59 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-19 10:44:59 INFO  com.app.Main  - ==========================================
+[main] 2021-08-19 10:44:59 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:44:59 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:44:59 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:44:59 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:44:59 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:44:59 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:45:07 INFO  com.app.Main  - Welcome to Employee Login
+[main] 2021-08-19 10:45:07 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-19 10:45:07 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-19 10:45:15 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 10:45:29 INFO  com.app.Main  - 1)Add new product
+[main] 2021-08-19 10:45:29 INFO  com.app.Main  - 2)View user details
+[main] 2021-08-19 10:45:29 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-19 10:45:45 INFO  com.app.Main  - You can view user details here
+[main] 2021-08-19 10:45:45 INFO  com.app.Main  - 1)View user by id
+[main] 2021-08-19 10:45:45 INFO  com.app.Main  - 2)View user by email
+[main] 2021-08-19 10:45:45 INFO  com.app.Main  - 3)View all users
+[main] 2021-08-19 10:45:45 INFO  com.app.Main  - 4)Go to previous menu
+[main] 2021-08-19 10:45:49 INFO  com.app.Main  - Total there are 3 users registered ... Below are the details
+[main] 2021-08-19 10:45:49 INFO  com.app.Main  - [User [id=1, firstName=Riya, lastName=Jha, email=emp@gmail.com, password=null], User [id=2, firstName=Nikita, lastName=Sharma, email=nikki@gmail.com, password=null], User [id=3, firstName=Anchal, lastName=Ghosh, email=anchal@gmail.com, password=null]]
+[main] 2021-08-19 10:45:49 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:45:49 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:45:49 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:45:49 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:45:49 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:45:49 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:46:30 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-19 10:46:30 INFO  com.app.Main  - ==========================================
+[main] 2021-08-19 10:46:30 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:46:30 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:46:30 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:46:30 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:46:30 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:46:30 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:46:37 INFO  com.app.Main  - Welcome to Employee Login
+[main] 2021-08-19 10:46:37 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-19 10:46:37 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-19 10:46:46 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 10:47:13 INFO  com.app.Main  - 1)Add new product
+[main] 2021-08-19 10:47:13 INFO  com.app.Main  - 2)View user details
+[main] 2021-08-19 10:47:13 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-19 10:47:15 INFO  com.app.Main  - You can view user details here
+[main] 2021-08-19 10:47:15 INFO  com.app.Main  - 1)View user by id
+[main] 2021-08-19 10:47:15 INFO  com.app.Main  - 2)View user by email
+[main] 2021-08-19 10:47:15 INFO  com.app.Main  - 3)View all users
+[main] 2021-08-19 10:47:15 INFO  com.app.Main  - 4)Go to previous menu
+[main] 2021-08-19 10:47:18 INFO  com.app.Main  - Total there are 3 users registered ... Below are the details
+[main] 2021-08-19 10:47:18 INFO  com.app.Main  - [User [id=1, firstName=Riya, lastName=Jha, email=emp@gmail.com, password=null], User [id=2, firstName=Nikita, lastName=Sharma, email=nikki@gmail.com, password=null], User [id=3, firstName=Anchal, lastName=Ghosh, email=anchal@gmail.com, password=null]]
+[main] 2021-08-19 10:47:18 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:47:18 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:47:18 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:47:18 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:47:18 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:47:18 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:52:59 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-19 10:52:59 INFO  com.app.Main  - ==========================================
+[main] 2021-08-19 10:52:59 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:52:59 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:52:59 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:52:59 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:52:59 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:52:59 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:53:06 INFO  com.app.Main  - Welcome to Employee Login
+[main] 2021-08-19 10:53:06 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-19 10:53:06 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-19 10:53:12 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 10:53:23 INFO  com.app.Main  - 1)Add new product
+[main] 2021-08-19 10:53:23 INFO  com.app.Main  - 2)View user details
+[main] 2021-08-19 10:53:23 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-19 10:53:32 INFO  com.app.Main  - You can view user details here
+[main] 2021-08-19 10:53:32 INFO  com.app.Main  - 1)View user by id
+[main] 2021-08-19 10:53:32 INFO  com.app.Main  - 2)View user by email
+[main] 2021-08-19 10:53:32 INFO  com.app.Main  - 3)View all users
+[main] 2021-08-19 10:53:32 INFO  com.app.Main  - 4)Go to previous menu
+[main] 2021-08-19 10:53:42 INFO  com.app.Main  - Enter the email id of the customer you want to search
+[main] 2021-08-19 10:53:53 INFO  com.app.Main  - User with email id nikki@gmail.com found successfully... Below is the details
+[main] 2021-08-19 10:53:53 INFO  com.app.Main  - User [id=2, firstName=Nikita, lastName=Sharma, email=nikki@gmail.com, password=null]
+[main] 2021-08-19 10:53:53 INFO  com.app.Main  - Main Menu
+[main] 2021-08-19 10:53:53 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-19 10:53:53 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-19 10:53:53 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-19 10:53:53 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-19 10:53:53 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-19 10:54:23 INFO  com.app.Main  - Thanks for using this APP we will see you soon :)

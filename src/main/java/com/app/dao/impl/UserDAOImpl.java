@@ -5,16 +5,20 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 
 import com.app.dao.UserDAO;
 import com.app.dao.dbutil.MySqlDbConnection;
 import com.app.exception.BusinessException;
+import com.app.model.Product;
 import com.app.model.User;
 
 public class UserDAOImpl implements UserDAO {
 	private static Logger log = Logger.getLogger(UserDAOImpl.class);
+	public static int ad = 0;
 
 	@Override
 	public int createUser(String firstName, String lastName, String email, String password) throws BusinessException {
@@ -35,6 +39,7 @@ public class UserDAOImpl implements UserDAO {
 				if(resultSet.next()) {
 					user = new User();
 					user.setId(resultSet.getInt(1));
+					ad = user.getId();
 				}
 			}
 		}catch (ClassNotFoundException | SQLException e) {
@@ -44,34 +49,10 @@ public class UserDAOImpl implements UserDAO {
 		
 		return c;
 	}
-
-//	@Override
-//	public User validateUser(User user) throws BusinessException {
-//		User username = null;
-//		try(Connection connection = MySqlDbConnection.getConnection()){
-//			String sql = "select firstName,lastName from user where email=? and password=?";
-//			
-//			PreparedStatement preparedStatement = connection.prepareStatement(sql);
-//			preparedStatement.setString(1, user.getEmail());
-//			preparedStatement.setString(2, user.getPassword());
-//			ResultSet resultSet = preparedStatement.executeQuery();
-//			if(resultSet.next()) {
-//				username=new User();
-//				username.setFirstName(resultSet.getString("firstName"));
-//				username.setLastName(resultSet.getString("lastName"));
-//			}else {
-//				throw new BusinessException("Entered email id isn't registered or password is wrong! Please check again");
-//			}
-//		} catch (ClassNotFoundException | SQLException e) {
-//			log.error(e);
-//			throw new BusinessException("Internal error occured contact sysadmin");
-//		}
-//		return username;
-//	}
 	
 	@Override
 	public int validateUser(String email, String password) throws BusinessException {
-//		int c = 0;
+
 		try(Connection connection = MySqlDbConnection.getConnection()){
 			String sql = "select id from user where email=? and password=?";
 			
@@ -79,7 +60,6 @@ public class UserDAOImpl implements UserDAO {
 			preparedStatement.setString(1, email);
 			preparedStatement.setString(2, password);
 			
-//			c = preparedStatement.executeUpdate();
 			ResultSet resultSet = preparedStatement.executeQuery();
 			if(resultSet.next()) {
 				return 1;
@@ -90,6 +70,77 @@ public class UserDAOImpl implements UserDAO {
 			log.error(e);
 			throw new BusinessException("Internal error occured contact sysadmin");
 		}
+	}
+
+	@Override
+	public List<User> getAllUsers() throws BusinessException {
+		List<User> userList = new ArrayList<>();
+		try(Connection connection = MySqlDbConnection.getConnection()){
+			String sql = "select id,firstName,lastName,email from user";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				User user = new User();
+				user.setId(resultSet.getInt("id"));
+				user.setFirstName(resultSet.getString("firstName"));
+				user.setLastName(resultSet.getString("lastName"));
+				user.setEmail(resultSet.getString("email"));
+				userList.add(user);
+			}
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact sysadmin");
+		}
+		return userList;
+	}
+
+	@Override
+	public User getUserById(int id) throws BusinessException {
+		User user = null;
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="select id,firstName,lastName,email from user where id=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1, id);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				user = new User();
+				user.setId(resultSet.getInt("id"));
+				user.setFirstName(resultSet.getString("firstName"));
+				user.setLastName(resultSet.getString("lastName"));
+				user.setEmail(resultSet.getString("email"));
+			} else {
+				throw new BusinessException("User with "+id+" id is not available");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact sysadmin");
+		}
+		return user;
+	}
+
+	@Override
+	public User getUserByEmail(String email) throws BusinessException {
+		User user = null;
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="select id,firstName,lastName,email from user where email=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1, email);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				user = new User();
+				user.setId(resultSet.getInt("id"));
+				user.setFirstName(resultSet.getString("firstName"));
+				user.setLastName(resultSet.getString("lastName"));
+				user.setEmail(resultSet.getString("email"));
+			} else {
+				throw new BusinessException("User with "+email+" email id is not available");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact sysadmin");
+		}
+		return user;
 	}
 
 }
