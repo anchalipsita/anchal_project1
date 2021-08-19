@@ -18,14 +18,14 @@ import com.app.model.Product;
 public class CartDAOImpl implements CartDAO {
 	private static Logger log = Logger.getLogger(CartDAOImpl.class);
 	@Override
-	public int addToCart(int product_id, int user_id) throws BusinessException {
+	public int addToCart(int product_id) throws BusinessException {
 		int c=0;
 		Cart cart = null;
 		try(Connection connection = MySqlDbConnection.getConnection()){
 			String sql = "insert into cart(product_id,user_id) values(?,?)";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS);
 			preparedStatement.setInt(1, product_id);
-			preparedStatement.setInt(2, UserDAOImpl.ad);
+			preparedStatement.setInt(2, UserDAOImpl.c_id);
 			c = preparedStatement.executeUpdate();
 			if(c==1) {
 				ResultSet resultSet = preparedStatement.getGeneratedKeys();
@@ -39,23 +39,26 @@ public class CartDAOImpl implements CartDAO {
 			log.error(e);
 			throw new BusinessException("Internal error occured, please contact support");
 		}
-		return 0;
+		return c;
 	}
 
 	@Override
 	public List<Cart> viewCart() throws BusinessException {
+		Cart cart = null;
 		List<Cart> cartList = new ArrayList<>();
 		try(Connection connection = MySqlDbConnection.getConnection()){
-			String sql = "select id,productName,category,price from product p join cart c on p.id=c.product_id join user u on u.id=c.user_id";
+			String sql = "select p.id,productName,category,price from product p join cart c on p.id=c.product_id join user u on u.id=c.user_id";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			ResultSet resultSet = preparedStatement.executeQuery();
 			while(resultSet.next()) {
-				Cart cart = new Cart();
+				cart = new Cart();
+//				cart.setId(resultSet.getInt("p.id"));
 				Product product = new Product();
-				product.setId(resultSet.getInt("id"));
+				product.setId(resultSet.getInt("p.id"));
 				product.setProductName(resultSet.getString("productName"));
 				product.setCategory(resultSet.getString("category"));
 				product.setPrice(resultSet.getDouble("price"));
+				
 				cart.setProduct(product);
 				cartList.add(cart);
 			}
@@ -68,7 +71,7 @@ public class CartDAOImpl implements CartDAO {
 			log.error(e);
 			throw new BusinessException("Internal error occured contact sysadmin");
 		}
-		return null;
+		return cartList;
 	}
 
 }

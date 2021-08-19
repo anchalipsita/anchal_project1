@@ -1,0 +1,14 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.exception.BusinessException;
+import com.app.model.Order;
+
+public interface OrderDAO {
+	
+	public int placeOrder(int product_id,int quantity) throws BusinessException;
+	public List<Order> viewOrder() throws BusinessException;
+	public int updateOrderStatus(int user_id,String status) throws BusinessException;
+
+}

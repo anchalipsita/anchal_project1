@@ -6,10 +6,16 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 import com.app.exception.BusinessException;
+import com.app.model.Cart;
+import com.app.model.Order;
 import com.app.model.Product;
 import com.app.model.User;
+import com.app.search.service.CartSearchService;
+import com.app.search.service.OrderSearchService;
 import com.app.search.service.ProductSearchService;
 import com.app.search.service.UserSearchService;
+import com.app.search.service.impl.CartSearchServiceImpl;
+import com.app.search.service.impl.OrderSearchServiceImpl;
 import com.app.search.service.impl.ProductSearchServiceImpl;
 import com.app.search.service.impl.UserSearchServiceImpl;
 
@@ -24,6 +30,8 @@ public class Main {
 		log.info("==========================================");
 		UserSearchService userSearchService = new UserSearchServiceImpl();
 		ProductSearchService productSearchService = new ProductSearchServiceImpl();
+		CartSearchService cartSearchService = new CartSearchServiceImpl();
+		OrderSearchService orderSearchService = new OrderSearchServiceImpl();
 		int ch = 0;
 		do {
 			log.info("Main Menu");
@@ -60,7 +68,8 @@ public class Main {
 				int option = 0;
 				log.info("Welcome dear customer, what you wanna do today?");
 				log.info("1)Search Products");
-				log.info("2)Logout");
+				log.info("2)View Orders");
+				log.info("3)Logout");
 				log.info("Please enter your choice");
 				try {
 					option = Integer.parseInt(sc.nextLine());
@@ -98,6 +107,28 @@ public class Main {
 							}
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
+							break;
+						}
+						
+						log.info("Do you want to add this product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i1 = 0;
+						try {
+							i1 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i1==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
 						}
 
 						break;
@@ -115,6 +146,27 @@ public class Main {
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
 						}
+						
+						log.info("Do you want to add any product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i2 = 0;
+						try {
+							i2 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i2==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
 						break;
 						
 					case 3:
@@ -129,6 +181,27 @@ public class Main {
 							}
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
+						}
+						
+						log.info("Do you want to add any product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i3 = 0;
+						try {
+							i3 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i3==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
 						}
 						break;
 						
@@ -145,6 +218,27 @@ public class Main {
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
 						}
+						
+						log.info("Do you want to add any product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i4 = 0;
+						try {
+							i4 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i4==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
 						break;
 						
 					case 5:
@@ -158,10 +252,67 @@ public class Main {
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
 						}
+						
+						log.info("Do you want to add any product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i5 = 0;
+						try {
+							i5 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i5==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
 						break;
 						
 					case 6:
+						log.info("Showing your cart details");
+						double total=0;
+						try {
+							List<Cart> cartList = cartSearchService.viewCart();
+							if(cartList!=null && cartList.size()>0) {
+								for(Cart cart:cartList) {
+									log.info(cart.getProduct().getId()+"   "+cart.getProduct().getProductName()+"   "+cart.getProduct().getCategory()+"   "+cart.getProduct().getPrice());
+									total+=cart.getProduct().getPrice();
+								}
+								log.info("Total amount for all products: "+total);
+							}
+						} catch(BusinessException e) {
+							log.warn(e.getMessage());
+						}
+			
+						log.info("Do you wish to place order for above products?");
+						log.info("If yes press 1 if no press 0");
 						
+						int i6=0;
+						try {
+							i6 = Integer.parseInt(sc.nextLine());
+						} catch(NumberFormatException e) {
+						}
+						
+						if(i6==1) {
+							try {
+								log.info("Enter the product id for the product you want to order");
+								int product_id = Integer.parseInt(sc.nextLine());
+								log.info("Enter the product quantity you want");
+								int quantity = Integer.parseInt(sc.nextLine());
+								orderSearchService.placeOrder(product_id, quantity);
+								log.info("Order placed successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
 						break;
 						
 					case 7:				
@@ -174,8 +325,25 @@ public class Main {
 					}
 					
 					break;
-					
+				
 				case 2:
+					log.info("You can see your order details here");
+					double total=0;
+					try {
+						List<Order> orderList = orderSearchService.viewOrder();
+						if(orderList!=null && orderList.size()>0) {
+							for(Order order:orderList) {
+								log.info(order.getProduct().getId()+"   "+order.getProduct().getProductName()+"   "+order.getProduct().getCategory()+"   "+order.getProduct().getPrice()+"   "+order.getQuantity()+"   "+order.getStatus());
+								total+=order.getProduct().getPrice()*order.getQuantity();
+							}
+							log.info("Total amount for all products: "+total);
+						}
+					} catch(BusinessException e) {
+						log.warn(e.getMessage());
+					}
+					break;
+					
+				case 3:
 					log.info("Logging out...");
 					log.info("Thanks for using this APP we will see you soon :)");
 					break;
@@ -198,7 +366,7 @@ public class Main {
 					String password = sc.nextLine();
 					int c = userSearchService.validateUser(email, password);
 					if (c == 1 && email=="emp@gmail.com" && password=="Emp123@owner") 
-					log.info("Login successful");
+						log.info("Login successful");
 					
 				} catch (BusinessException e) {
 					log.warn(e.getMessage());
@@ -208,6 +376,7 @@ public class Main {
 				int opt1=0;
 				log.info("1)Add new product");
 				log.info("2)View user details");
+				log.info("3)Update order status");
 				log.info("Please enter your choice");
 				try {
 					opt1 = Integer.parseInt(sc.nextLine());
@@ -300,6 +469,21 @@ public class Main {
 					}
 					break;
 					
+				case 3:
+					log.info("Enter the customer id and order status you want to update");
+					try {
+						log.info("Enter the customer id:");
+						int user_id = Integer.parseInt(sc.nextLine());
+						log.info("Enter order status:");
+						String status = sc.nextLine();
+						orderSearchService.updateOrderStatus(user_id,status);
+						log.info("Order ststus is updated successfully");
+					} catch (BusinessException e) {
+						log.warn(e.getMessage());
+					}
+					
+					break;
+					
 				default:
 					log.warn("Invalid choice... Choice should be only number between 1-2 only ");
 					break;
@@ -365,6 +549,27 @@ public class Main {
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
 						}
+						
+						log.info("Do you want to add this product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i1 = 0;
+						try {
+							i1 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i1==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
 
 						break;
 						
@@ -381,6 +586,28 @@ public class Main {
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
 						}
+						
+						log.info("Do you want to add this product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i2 = 0;
+						try {
+							i2 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i2==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
+						
 						break;
 						
 					case 3:
@@ -396,6 +623,28 @@ public class Main {
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
 						}
+						
+						log.info("Do you want to add this product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i3 = 0;
+						try {
+							i3 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i3==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
+						
 						break;
 						
 					case 4:
@@ -411,6 +660,28 @@ public class Main {
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
 						}
+						
+						log.info("Do you want to add this product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i4 = 0;
+						try {
+							i4 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i4==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
+						
 						break;
 						
 					case 5:
@@ -424,9 +695,69 @@ public class Main {
 						} catch (BusinessException e) {
 							log.warn(e.getMessage());
 						}
+						
+						log.info("Do you want to add this product to your cart?");
+						log.info("If yes press 1 else press 0");
+						
+						int i5 = 0;
+						try {
+							i5 = Integer.parseInt(sc.nextLine());
+						} catch (NumberFormatException e) {
+						}
+						
+						if(i5==1) {
+							try {
+								log.info("Enter the product id for the product you want to add to your cart");
+								int product_id = Integer.parseInt(sc.nextLine());
+								cartSearchService.addToCart(product_id);
+								log.info("Product added to the cart successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
+						
 						break;
 						
 					case 6:
+						
+						log.info("Showing your cart details");
+						double total=0;
+						try {
+							List<Cart> cartList = cartSearchService.viewCart();
+							if(cartList!=null && cartList.size()>0) {
+								for(Cart cart:cartList) {
+									log.info(cart.getProduct().getId()+"   "+cart.getProduct().getProductName()+"   "+cart.getProduct().getCategory()+"   "+cart.getProduct().getPrice());
+									total+=cart.getProduct().getPrice();
+								}
+								log.info("Total amount for all products: "+total);
+							}
+						} catch(BusinessException e) {
+							log.warn(e.getMessage());
+						}
+			
+						log.info("Do you wish to place order for above products?");
+						log.info("If yes press 1 if no press 0");
+						
+						int i6=0;
+						try {
+							i6 = Integer.parseInt(sc.nextLine());
+						} catch(NumberFormatException e) {
+						}
+						
+						if(i6==1) {
+							try {
+								log.info("Enter the product id for the product you want to order");
+								int product_id = Integer.parseInt(sc.nextLine());
+								log.info("Enter the product quantity you want");
+								int quantity = Integer.parseInt(sc.nextLine());
+								orderSearchService.placeOrder(product_id, quantity);
+								log.info("Order placed successfully");
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+								break;
+							}
+						}
 						
 						break;
 						

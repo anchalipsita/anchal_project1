@@ -12,10 +12,10 @@ public class CartSearchServiceImpl implements CartSearchService {
 	private CartDAO cartDAO=new CartDAOImpl();
 
 	@Override
-	public int addToCart(int product_id, int user_id) throws BusinessException {
+	public int addToCart(int product_id) throws BusinessException {
 		int c=0;
-		if(product_id>1) {
-			c = cartDAO.addToCart(product_id,user_id);
+		if(product_id>0) {
+			c = cartDAO.addToCart(product_id);
 		} else {
 			throw new BusinessException("Invalid product id");
 		}

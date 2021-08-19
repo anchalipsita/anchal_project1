@@ -18,7 +18,7 @@ import com.app.model.User;
 
 public class UserDAOImpl implements UserDAO {
 	private static Logger log = Logger.getLogger(UserDAOImpl.class);
-	public static int ad = 0;
+	public static int c_id = 0;
 
 	@Override
 	public int createUser(String firstName, String lastName, String email, String password) throws BusinessException {
@@ -39,7 +39,6 @@ public class UserDAOImpl implements UserDAO {
 				if(resultSet.next()) {
 					user = new User();
 					user.setId(resultSet.getInt(1));
-					ad = user.getId();
 				}
 			}
 		}catch (ClassNotFoundException | SQLException e) {
@@ -62,6 +61,7 @@ public class UserDAOImpl implements UserDAO {
 			
 			ResultSet resultSet = preparedStatement.executeQuery();
 			if(resultSet.next()) {
+				c_id = resultSet.getInt("id");
 				return 1;
 			} else {
 				throw new BusinessException("Entered email and password isn't registered");

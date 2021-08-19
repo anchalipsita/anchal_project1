@@ -7,7 +7,7 @@ import com.app.model.Cart;
 
 public interface CartSearchService {
 	
-	public int addToCart(int product_id, int user_id) throws BusinessException;
+	public int addToCart(int product_id) throws BusinessException;
 	public List<Cart> viewCart() throws BusinessException;
 
 }
