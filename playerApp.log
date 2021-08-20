@@ -2153,3 +2153,52 @@
 
 [main] 2021-08-20 13:52:49 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
 
+[main] 2021-08-20 13:59:16 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-20 13:59:16 INFO  com.app.Main  - ==========================================
+[main] 2021-08-20 13:59:16 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 13:59:16 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 13:59:16 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 13:59:16 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 13:59:16 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 13:59:16 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 13:59:21 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-20 13:59:21 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-20 13:59:21 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-20 13:59:33 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-20 13:59:39 INFO  com.app.Main  - Login successful
+[main] 2021-08-20 13:59:39 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-20 13:59:39 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-20 13:59:39 INFO  com.app.Main  - 2)View Orders
+[main] 2021-08-20 13:59:39 INFO  com.app.Main  - 3)Logout
+[main] 2021-08-20 13:59:39 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-20 13:59:43 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-20 13:59:43 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-20 13:59:43 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 13:59:43 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-20 13:59:43 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-20 13:59:43 INFO  com.app.Main  - 5)View All Products
+[main] 2021-08-20 13:59:43 INFO  com.app.Main  - 6)View Cart
+[main] 2021-08-20 13:59:43 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-20 13:59:48 INFO  com.app.Main  - Enter the product category you want to search
+[main] 2021-08-20 13:59:53 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 13:59:53 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 13:59:53 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - Total there are 3 products available ... Below are the details
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - [Product [id=3, productName=LG HD LED Smart TV, category=TV, price=18000.0, rating=4.4]
+, Product [id=5, productName=Mi 4X Smart Android TV, category=TV, price=39000.0, rating=4.4]
+, Product [id=8, productName=realme Smart Android TV, category=TV, price=25999.0, rating=4.3]
+]
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - Do you want to add any product to your cart?
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - If yes press 1 else press 0
+[main] 2021-08-20 13:59:59 INFO  com.app.Main  - Enter the product id for the product you want to add to your cart
+[main] 2021-08-20 14:00:08 ERROR com.app.dao.impl.CartDAOImpl  - java.sql.SQLException: Column 'product_id' not found.
+[main] 2021-08-20 14:00:08 WARN  com.app.Main  - Internal error occured, please contact support
+[main] 2021-08-20 14:00:08 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 14:00:08 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 14:00:08 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 14:00:08 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 14:00:08 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 14:00:08 INFO  com.app.Main  - Please enter your choice(1-4)

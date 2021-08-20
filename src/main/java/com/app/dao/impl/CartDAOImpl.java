@@ -33,7 +33,7 @@ public class CartDAOImpl implements CartDAO {
 				if(resultSet.next()) {
 					cart = new Cart();
 					cart.setId(resultSet.getInt(1));
-					p_id = resultSet.getInt("product_id");
+//					p_id = resultSet.getInt("product_id");
 				}
 			}	
 		
