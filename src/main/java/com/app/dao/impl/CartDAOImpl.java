@@ -17,6 +17,7 @@ import com.app.model.Product;
 
 public class CartDAOImpl implements CartDAO {
 	private static Logger log = Logger.getLogger(CartDAOImpl.class);
+	public static int p_id=0;
 	@Override
 	public int addToCart(int product_id) throws BusinessException {
 		int c=0;
@@ -32,6 +33,7 @@ public class CartDAOImpl implements CartDAO {
 				if(resultSet.next()) {
 					cart = new Cart();
 					cart.setId(resultSet.getInt(1));
+					p_id = resultSet.getInt("product_id");
 				}
 			}	
 		
@@ -58,7 +60,6 @@ public class CartDAOImpl implements CartDAO {
 				product.setProductName(resultSet.getString("productName"));
 				product.setCategory(resultSet.getString("category"));
 				product.setPrice(resultSet.getDouble("price"));
-				
 				cart.setProduct(product);
 				cartList.add(cart);
 			}

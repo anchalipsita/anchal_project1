@@ -1842,3 +1842,248 @@
 [main] 2021-08-20 02:13:23 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
 [main] 2021-08-20 02:13:23 INFO  com.app.Main  - 4)EXIT
 [main] 2021-08-20 02:13:23 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 10:47:34 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-20 10:47:34 INFO  com.app.Main  - ==========================================
+[main] 2021-08-20 10:47:34 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 10:47:34 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 10:47:34 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 10:47:34 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 10:47:34 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 10:47:34 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 10:47:38 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-20 10:47:38 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-20 10:47:38 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-20 10:47:45 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-20 10:47:51 INFO  com.app.Main  - Login successful
+[main] 2021-08-20 10:47:51 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-20 10:47:51 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-20 10:47:51 INFO  com.app.Main  - 2)View Orders
+[main] 2021-08-20 10:47:51 INFO  com.app.Main  - 3)Logout
+[main] 2021-08-20 10:47:51 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-20 10:47:57 INFO  com.app.Main  - You can see your order details here
+[main] 2021-08-20 10:47:57 ERROR com.app.dao.impl.OrderDAOImpl  - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order o on p.id=o.product_id join user u on u.id=o.user_id' at line 1
+[main] 2021-08-20 10:47:57 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-20 10:47:57 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 10:47:57 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 10:47:57 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 10:47:57 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 10:47:57 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 10:47:57 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 10:48:04 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-20 10:48:04 INFO  com.app.Main  - ==========================================
+[main] 2021-08-20 10:48:04 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 10:48:04 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 10:48:04 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 10:48:04 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 10:48:04 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 10:48:04 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 10:48:06 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-20 10:48:06 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-20 10:48:06 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-20 10:48:14 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-20 10:48:20 INFO  com.app.Main  - Login successful
+[main] 2021-08-20 10:48:20 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-20 10:48:20 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-20 10:48:20 INFO  com.app.Main  - 2)View Orders
+[main] 2021-08-20 10:48:20 INFO  com.app.Main  - 3)Logout
+[main] 2021-08-20 10:48:20 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-20 10:48:21 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-20 10:48:21 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-20 10:48:21 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 10:48:21 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-20 10:48:21 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-20 10:48:21 INFO  com.app.Main  - 5)View All Products
+[main] 2021-08-20 10:48:21 INFO  com.app.Main  - 6)View Cart
+[main] 2021-08-20 10:48:21 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-20 10:48:26 INFO  com.app.Main  - Showing your cart details
+[main] 2021-08-20 10:48:26 ERROR com.app.dao.impl.CartDAOImpl  - java.sql.SQLException: Column 'product_id' not found.
+[main] 2021-08-20 10:48:26 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-20 10:48:26 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 10:48:26 INFO  com.app.Main  - If yes press 1 if no press 0
+[main] 2021-08-20 10:49:31 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-20 10:49:31 INFO  com.app.Main  - ==========================================
+[main] 2021-08-20 10:49:31 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 10:49:31 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 10:49:31 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 10:49:31 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 10:49:31 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 10:49:31 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 10:49:34 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-20 10:49:34 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-20 10:49:34 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-20 10:49:40 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-20 10:49:46 INFO  com.app.Main  - Login successful
+[main] 2021-08-20 10:49:46 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-20 10:49:46 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-20 10:49:46 INFO  com.app.Main  - 2)View Orders
+[main] 2021-08-20 10:49:46 INFO  com.app.Main  - 3)Logout
+[main] 2021-08-20 10:49:46 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-20 10:49:50 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-20 10:49:50 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-20 10:49:50 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 10:49:50 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-20 10:49:50 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-20 10:49:50 INFO  com.app.Main  - 5)View All Products
+[main] 2021-08-20 10:49:50 INFO  com.app.Main  - 6)View Cart
+[main] 2021-08-20 10:49:50 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-20 10:49:53 INFO  com.app.Main  - Showing your cart details
+[main] 2021-08-20 10:49:53 ERROR com.app.dao.impl.CartDAOImpl  - java.sql.SQLException: Column 'product_id' not found.
+[main] 2021-08-20 10:49:53 WARN  com.app.Main  - Internal error occured contact sysadmin
+[main] 2021-08-20 10:49:53 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 10:49:53 INFO  com.app.Main  - If yes press 1 if no press 0
+[main] 2021-08-20 10:52:05 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-20 10:52:05 INFO  com.app.Main  - ==========================================
+[main] 2021-08-20 10:52:05 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 10:52:05 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 10:52:05 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 10:52:05 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 10:52:05 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 10:52:05 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 10:52:08 INFO  com.app.Main  - Welcome to Customer Login
+[main] 2021-08-20 10:52:08 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-20 10:52:08 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-20 10:52:14 INFO  com.app.Main  - Enter your password:
+[main] 2021-08-20 10:52:20 INFO  com.app.Main  - Login successful
+[main] 2021-08-20 10:52:20 INFO  com.app.Main  - Welcome dear customer, what you wanna do today?
+[main] 2021-08-20 10:52:20 INFO  com.app.Main  - 1)Search Products
+[main] 2021-08-20 10:52:20 INFO  com.app.Main  - 2)View Orders
+[main] 2021-08-20 10:52:20 INFO  com.app.Main  - 3)Logout
+[main] 2021-08-20 10:52:20 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-20 10:52:22 INFO  com.app.Main  - Welcome to Product Search! You can search a product from various criteria from below menu
+[main] 2021-08-20 10:52:22 INFO  com.app.Main  - 1)By Product Name
+[main] 2021-08-20 10:52:22 INFO  com.app.Main  - 2)By Category
+[main] 2021-08-20 10:52:22 INFO  com.app.Main  - 3)By Price
+[main] 2021-08-20 10:52:22 INFO  com.app.Main  - 4)By Rating
+[main] 2021-08-20 10:52:22 INFO  com.app.Main  - 5)View All Products
+[main] 2021-08-20 10:52:22 INFO  com.app.Main  - 6)View Cart
+[main] 2021-08-20 10:52:22 INFO  com.app.Main  - 7)Logout
+[main] 2021-08-20 10:52:25 INFO  com.app.Main  - Showing your cart details
+[main] 2021-08-20 10:52:25 INFO  com.app.Main  - 6   Lois Caron   Watch   314.0
+[main] 2021-08-20 10:52:25 INFO  com.app.Main  - 4   acer Predator   Laptop   119990.0
+[main] 2021-08-20 10:52:25 INFO  com.app.Main  - Total amount for all products: 120304.0
+[main] 2021-08-20 10:52:25 INFO  com.app.Main  - Do you wish to place order for above products?
+[main] 2021-08-20 10:52:25 INFO  com.app.Main  - If yes press 1 if no press 0
+[main] 2021-08-20 10:52:33 ERROR com.app.dao.impl.OrderDAOImpl  - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(user_id,product_id,status) values(2,0,'ordered')' at line 1
+[main] 2021-08-20 10:52:33 WARN  com.app.Main  - Internal error occured, please contact sysadmin
+[main] 2021-08-20 10:52:33 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 10:52:33 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 10:52:33 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 10:52:33 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 10:52:33 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 10:52:33 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 12:19:52 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:19:52 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:19:52 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:20:40 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:20:40 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:20:40 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:21:15 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:21:15 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:21:15 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:21:56 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:21:56 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:21:56 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:24:42 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:24:42 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:24:42 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:24:58 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:24:58 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:24:58 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:25:18 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:25:18 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:25:18 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:26:52 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:26:52 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:26:52 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:32:13 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:32:13 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:32:13 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:34:25 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:34:25 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:34:25 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:34:25 ERROR com.app.dao.impl.CartDAOImpl  - java.sql.SQLException: Column 'product_id' not found.
+[main] 2021-08-20 12:34:47 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:34:47 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:34:47 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:34:47 ERROR com.app.dao.impl.CartDAOImpl  - java.sql.SQLException: Column 'product_id' not found.
+[main] 2021-08-20 12:37:54 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:37:54 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:37:54 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:40:03 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:40:03 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:40:03 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:46:48 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:46:48 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:46:48 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:49:59 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:49:59 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:49:59 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:50:22 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:50:22 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:50:22 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:50:57 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:50:57 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:50:57 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:53:31 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:53:31 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:53:31 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:55:00 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:55:00 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 12:55:00 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+

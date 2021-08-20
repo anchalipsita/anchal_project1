@@ -302,11 +302,11 @@ public class Main {
 						
 						if(i6==1) {
 							try {
-								log.info("Enter the product id for the product you want to order");
-								int product_id = Integer.parseInt(sc.nextLine());
-								log.info("Enter the product quantity you want");
-								int quantity = Integer.parseInt(sc.nextLine());
-								orderSearchService.placeOrder(product_id, quantity);
+//								log.info("Enter the product id for the product you want to order");
+//								int product_id = Integer.parseInt(sc.nextLine());
+//								log.info("Enter the product quantity you want");
+//								int quantity = Integer.parseInt(sc.nextLine());
+								orderSearchService.placeOrder();
 								log.info("Order placed successfully");
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
@@ -333,8 +333,8 @@ public class Main {
 						List<Order> orderList = orderSearchService.viewOrder();
 						if(orderList!=null && orderList.size()>0) {
 							for(Order order:orderList) {
-								log.info(order.getProduct().getId()+"   "+order.getProduct().getProductName()+"   "+order.getProduct().getCategory()+"   "+order.getProduct().getPrice()+"   "+order.getQuantity()+"   "+order.getStatus());
-								total+=order.getProduct().getPrice()*order.getQuantity();
+								log.info(order.getProduct().getId()+"   "+order.getProduct().getProductName()+"   "+order.getProduct().getCategory()+"   "+order.getProduct().getPrice()+"   "+order.getStatus());
+								total+=order.getProduct().getPrice();
 							}
 							log.info("Total amount for all products: "+total);
 						}
@@ -505,6 +505,7 @@ public class Main {
 					log.info("You have been registered successfully");
 				} catch (BusinessException e) {
 					log.warn(e.getMessage());
+					break;
 				}
 				
 				int option1 = 0;
@@ -747,11 +748,11 @@ public class Main {
 						
 						if(i6==1) {
 							try {
-								log.info("Enter the product id for the product you want to order");
-								int product_id = Integer.parseInt(sc.nextLine());
-								log.info("Enter the product quantity you want");
-								int quantity = Integer.parseInt(sc.nextLine());
-								orderSearchService.placeOrder(product_id, quantity);
+//								log.info("Enter the product id for the product you want to order");
+//								int product_id = Integer.parseInt(sc.nextLine());
+//								log.info("Enter the product quantity you want");
+//								int quantity = Integer.parseInt(sc.nextLine());
+								orderSearchService.placeOrder();
 								log.info("Order placed successfully");
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());

@@ -12,13 +12,9 @@ public class OrderSearchServiceImpl implements OrderSearchService {
 	private OrderDAO orderDAO=new OrderDAOImpl();
 
 	@Override
-	public int placeOrder(int product_id, int quantity) throws BusinessException {
+	public int placeOrder() throws BusinessException {
 		int c=0;
-		if(product_id>0 && quantity>0) {
-			c = orderDAO.placeOrder(product_id,quantity);
-		} else {
-			throw new BusinessException("Invalid product id or quantity");
-		}
+		c = orderDAO.placeOrder();
 		return c;
 	}
 

@@ -5,7 +5,6 @@ public class Order {
 	private int id;
 	private int product_id;
 	private int user_id;
-	private int quantity;
 	private String status;
 	private Product product;
 	
@@ -45,14 +44,6 @@ public class Order {
 		this.user_id = user_id;
 	}
 	
-	public int getQuantity() {
-		return quantity;
-	}
-	
-	public void setQuantity(int quantity) {
-		this.quantity = quantity;
-	}
-	
 	public Product getProduct() {
 		return product;
 	}
@@ -63,7 +54,7 @@ public class Order {
 
 	@Override
 	public String toString() {
-		return "Order [id=" + id + ", product_id=" + product_id + ", user_id=" + user_id + ", quantity=" + quantity
+		return "Order [id=" + id + ", product_id=" + product_id + ", user_id=" + user_id
 				+ ", status=" + status + ", product=" + product + "]";
 	}
 
