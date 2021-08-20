@@ -2087,3 +2087,69 @@
 
 [main] 2021-08-20 12:55:00 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
 
+[main] 2021-08-20 13:36:05 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-20 13:36:05 INFO  com.app.Main  - ==========================================
+[main] 2021-08-20 13:36:05 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 13:36:05 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 13:36:05 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 13:36:05 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 13:36:05 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 13:36:05 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 13:36:14 INFO  com.app.Main  - Welcome to Employee Login
+[main] 2021-08-20 13:36:14 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-20 13:36:14 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-20 13:36:23 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 13:36:30 WARN  com.app.Main  - Entered email and password isn't registered
+[main] 2021-08-20 13:36:30 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 13:36:30 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 13:36:30 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 13:36:30 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 13:36:30 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 13:36:30 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 13:36:40 INFO  com.app.Main  - Welcome to Employee Login
+[main] 2021-08-20 13:36:40 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-20 13:36:40 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-20 13:36:47 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 13:36:58 INFO  com.app.Main  - 1)Add new product
+[main] 2021-08-20 13:36:58 INFO  com.app.Main  - 2)View user details
+[main] 2021-08-20 13:36:58 INFO  com.app.Main  - 3)Update order status
+[main] 2021-08-20 13:36:58 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-20 13:37:03 INFO  com.app.Main  - Want to add a new product!! Please give the product details below
+[main] 2021-08-20 13:37:03 INFO  com.app.Main  - Enter the product name:
+[main] 2021-08-20 13:37:17 INFO  com.app.Main  - Enter the product category:
+[main] 2021-08-20 13:37:24 INFO  com.app.Main  - Enter the product price:
+[main] 2021-08-20 13:37:31 INFO  com.app.Main  - Enter the product rating:
+[main] 2021-08-20 13:51:34 INFO  com.app.Main  - Welcome to Anchal's Console Based Shopping App
+[main] 2021-08-20 13:51:34 INFO  com.app.Main  - ==========================================
+[main] 2021-08-20 13:51:34 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 13:51:34 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 13:51:34 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 13:51:34 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 13:51:34 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 13:51:34 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 13:51:38 INFO  com.app.Main  - Welcome to Employee Login
+[main] 2021-08-20 13:51:38 INFO  com.app.Main  - Please login using your email and password
+[main] 2021-08-20 13:51:38 INFO  com.app.Main  - Enter your email id:
+[main] 2021-08-20 13:51:44 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 13:51:52 INFO  com.app.Main  - 1)Add new product
+[main] 2021-08-20 13:51:52 INFO  com.app.Main  - 2)View user details
+[main] 2021-08-20 13:51:52 INFO  com.app.Main  - 3)Update order status
+[main] 2021-08-20 13:51:52 INFO  com.app.Main  - Please enter your choice
+[main] 2021-08-20 13:51:54 INFO  com.app.Main  - Want to add a new product!! Please give the product details below
+[main] 2021-08-20 13:51:54 INFO  com.app.Main  - Enter the product name:
+[main] 2021-08-20 13:52:04 INFO  com.app.Main  - Enter the product category:
+[main] 2021-08-20 13:52:10 INFO  com.app.Main  - Enter the product price:
+[main] 2021-08-20 13:52:16 INFO  com.app.Main  - Enter the product rating:
+[main] 2021-08-20 13:52:20 INFO  com.app.Main  - Product item is inserted successfully
+[main] 2021-08-20 13:52:20 INFO  com.app.Main  - Main Menu
+[main] 2021-08-20 13:52:20 INFO  com.app.Main  - 1)Login as a Customer
+[main] 2021-08-20 13:52:20 INFO  com.app.Main  - 2)Login as an Employee
+[main] 2021-08-20 13:52:20 INFO  com.app.Main  - 3)Not Registered Yet! Please Sign Up
+[main] 2021-08-20 13:52:20 INFO  com.app.Main  - 4)EXIT
+[main] 2021-08-20 13:52:20 INFO  com.app.Main  - Please enter your choice(1-4)
+[main] 2021-08-20 13:52:49 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 13:52:49 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+
+[main] 2021-08-20 13:52:49 INFO  com.app.dao.impl.ProductSearchDAOImpl  - 
+

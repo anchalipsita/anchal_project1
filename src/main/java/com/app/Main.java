@@ -712,6 +712,7 @@ public class Main {
 								int product_id = Integer.parseInt(sc.nextLine());
 								cartSearchService.addToCart(product_id);
 								log.info("Product added to the cart successfully");
+								break;
 							} catch (BusinessException e) {
 								log.warn(e.getMessage());
 								break;

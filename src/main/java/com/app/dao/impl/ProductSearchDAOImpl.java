@@ -159,10 +159,10 @@ public class ProductSearchDAOImpl implements ProductSearchDAO {
 		try(Connection connection=MySqlDbConnection.getConnection()){
 			String sql="insert into product(productName,category,price,rating) values(?,?,?,?)";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
-			preparedStatement.setString(1,product.getProductName());
-			preparedStatement.setString(2,product.getCategory());
-			preparedStatement.setDouble(3,product.getPrice());
-			preparedStatement.setDouble(3,product.getRating());
+			preparedStatement.setString(1,productName);
+			preparedStatement.setString(2,category);
+			preparedStatement.setDouble(3,price);
+			preparedStatement.setDouble(4,rating);
 			
 			c = preparedStatement.executeUpdate();
 			if(c==1) {

@@ -77,11 +77,11 @@ class TestMain {
 		assertNotNull(productSearchService.getProductByPrice(50000));
 	}
 	
-//	@Test
-//	// Test case 9
-//	void testAddProduct() throws BusinessException {
-//		assertEquals(1,productSearchDAO.addProduct("Wrogn","Sunglass",3000,3.9));
-//	}
+	@Test
+	// Test case 9
+	void testAddProduct() throws BusinessException {
+		assertEquals(1,productSearchDAO.addProduct("Wrogn","Sunglass",3000,3.9));
+	}
 	
 	@Test
 	// Test case 10
